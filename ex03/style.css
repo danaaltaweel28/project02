@@ -1,0 +1,70 @@
+
+/* Page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Color palette */
+.color-palette {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.swatch {
+    width: 200px;
+    height: 120px;
+    border: 1px solid #333333;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.named-color {
+    background-color: tomato;
+}
+
+.hex-color {
+    background-color: #3498DB;
+}
+
+.rgb-color {
+    background-color: rgb(46, 204, 113);
+}
+
+.rgba-color {
+    background-color: rgba(155, 89, 182, 0.5);
+}
+
+/* Transparency comparison */
+.comparison {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.example {
+    width: 300px;
+}
+
+.box {
+    height: 150px;
+    border: 2px solid #333333;
+    padding: 10px;
+}
+
+/* The entire element, including its text, becomes transparent */
+.opacity-box {
+    background-color: #3498DB;
+    opacity: 0.5;
+}
+
+/* Only the background color becomes transparent */
+.rgba-box {
+    background-color: rgba(52, 152, 219, 0.5);
+}

@@ -1,0 +1,22 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container nav {
+    display: flex;
+    gap: 40px;
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}

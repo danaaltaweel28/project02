@@ -1,0 +1,57 @@
+
+/* 1. Fixed navigation bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: lightblue;
+    padding: 15px;
+    z-index: 10;
+}
+
+/* Keep content below the navbar */
+main {
+    padding-top: 100px;
+}
+
+/* 2. Relative card container */
+.card-container {
+    position: relative;
+    padding: 20px;
+}
+
+/* Card */
+.card {
+    position: relative;
+    padding: 40px 20px;
+    border: 1px solid gray;
+}
+
+/* 3. Absolute notification badge */
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+/* Add content to allow scrolling */
+.content {
+    margin-top: 800px;
+}
+
+/* 4. Fixed back-to-top button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    z-index: 11;
+}
